@@ -15,7 +15,8 @@
     "clean": "rm -rf build",
     "release-patch": "npm version patch",
     "release-minor": "npm version minor",
-    "release-major": "npm version major"
+    "release-major": "npm version major",
+    "prepare": "npm run build"
   },
   "author": "Guillaume JASMIN",
   "homepage": "https://github.com/guillaumejasmin/react-table-sticky",
